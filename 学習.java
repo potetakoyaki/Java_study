@@ -58,10 +58,21 @@ class Main4 {
   }
 }
 
-class Main5{
-  public static void main(String[]args){
-    String[]names = {"にんじゃわんこ","ひつじ仙人","ベイビーわんこ"};
+class Main5 {
+  public static void main(String[] args) {
+    String[] names = { "にんじゃわんこ", "ひつじ仙人", "ベイビーわんこ" };
     System.out.println(names[0]);
     System.out.println(names[2]);
+  }
+}
+
+// メソッドのについて
+class Main6 {
+  public static void main(String[] args) {
+    hello();
+  }
+
+  public static void hello() {
+    System.out.println("Hello Java");
   }
 }
