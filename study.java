@@ -1,4 +1,4 @@
-class Main1 {
+class Study1 {
   // 比較演算
   public static void main(String[] args) {
     System.out.println(true);
@@ -16,7 +16,7 @@ class Main1 {
 }
 
 // while文
-class Main2 {
+class Study2 {
   public static void main(String[] args) {
     int number = 10;
     while (number > 0) {
@@ -27,7 +27,7 @@ class Main2 {
 }
 
 // for文
-class Main3 {
+class Study3 {
   public static void main(String[] args) {
     for (int i = 1; i <= 10; i++) {
       System.out.println(i + "回目のループです");
@@ -36,7 +36,7 @@ class Main3 {
 }
 
 // break,continue
-class Main4 {
+class Study4 {
   public static void main(String[] args) {
     System.out.println("=== while文 ===");
     int i = 1;
@@ -58,7 +58,7 @@ class Main4 {
   }
 }
 
-class Main5 {
+class Study5 {
   public static void main(String[] args) {
     String[] names = { "にんじゃわんこ", "ひつじ仙人", "ベイビーわんこ" };
     System.out.println(names[0]);
@@ -67,7 +67,7 @@ class Main5 {
 }
 
 // メソッドのについて
-class Main6 {
+class Study6 {
   public static void main(String[] args) {
     hello();
   }
@@ -76,3 +76,5 @@ class Main6 {
     System.out.println("Hello Java");
   }
 }
+
+//メソッドの定義について
