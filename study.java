@@ -116,8 +116,8 @@ class Study9 {
 
 class Study10 {
   public static void main(String[]args){
-    String name = fullName(Kate,Jones)
-    printData(String name, 27);
+    String name = fullName("Kate","Jones");
+    printData(name, 27);
     printData("John Christopher Smith", 65);
   }
 
@@ -126,7 +126,7 @@ class Study10 {
     System.out.println("年齢は" + age + "歳です");
   }
 
-  public static String fullName() {
+  public static String fullName(String firstName, String lastName) {
     return firstName + lastName;
   }
 }
