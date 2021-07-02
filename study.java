@@ -105,11 +105,28 @@ class Study8 {
 // 戻り値
 class Study9 {
   public static void main(String[] args) {
-    int total = add(7,5);
+    int total = add(7, 5);
     System.out.println(total);
   }
 
   public static int add(int a, int b) {
     return a + b;
+  }
+}
+
+class Study10 {
+  public static void main(String[]args){
+    String name = fullName(Kate,Jones)
+    printData(String name, 27);
+    printData("John Christopher Smith", 65);
+  }
+
+  public static void printData(String name, int age) {
+    System.out.println("私の名前は" + name + "です");
+    System.out.println("年齢は" + age + "歳です");
+  }
+
+  public static String fullName() {
+    return firstName + lastName;
   }
 }
